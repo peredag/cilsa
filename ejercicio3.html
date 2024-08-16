@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style2.css">
+    <title>Formulario datos personales</title>
+</head>
+<body>
+   
+    <main>
+       
+        <form action="./" class="form" method="post" id="formulario">
+            <h1>Formulario de datos personales</h1>
+            <div class="container-form">
+                <label for="nombre" class="label"> 
+                    Nombre :
+                    <input type="text" name="nombre" placeholder="nombre" id="nombre" class="" required>
+                </label>
+                <br>
+                <label for="apellido" class="label"> 
+                    Apellido :
+                    <input type="text" name="apellido" placeholder="apellido" id="apellido" class="" required>
+                </label>
+                <br>
+                <label for="email" class="label"> 
+                    E-mail :
+                    <input type="email" name="email" placeholder="email" id="email" class="" required>
+                </label>
+                <br>
+                <label for="fecha_de_nac" class="label"> 
+                    Fecha de nacimiento :
+                    <input type="date" name="fecha_de_nac" id="fecha_de_nac" class="">
+                </label>
+                <br>
+                <label for="pais" class="label"> 
+                    País de residencia :
+                    <select name="" id="">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>
+                </label>
+                <br>
+            </div>
+            <input type="submit" value="Enviar" class="btn-enviar">
+            <input type="button" value="Cambiar color" class="btn-enviar" id="btnToggle">
+             
+        </form>
+    </main>
+    <script src="./ejercicio2.js">
+    </script>
+    
+</body>
+</html>
